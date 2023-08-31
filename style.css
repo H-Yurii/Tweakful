@@ -686,6 +686,10 @@ body {
   line-height: 26px;
   /* 162.5% */
   letter-spacing: -0.29px;
+  cursor: pointer;
+}
+.footer__contant-item:hover {
+  color: #bdbdbd;
 }
 .footer__contact-item {
   color: var(--base-text-on-dark, #FFF);
@@ -697,6 +701,10 @@ body {
   line-height: 26px;
   /* 162.5% */
   letter-spacing: -0.29px;
+  cursor: pointer;
+}
+.footer__contact-item:hover {
+  color: #bdbdbd;
 }
 .footer__line {
   background-color: rgb(255, 255, 255);
