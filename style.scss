@@ -880,6 +880,10 @@ body {
     .footer {
         padding: 0 20px;
     }
+
+    .goals__box-text {
+        width: 220px;
+    }
 }
 
 /* Стилі для середніх екранів (дисплей максимум 991рх) */
@@ -1101,6 +1105,11 @@ body {
     .sample__img {
         width: 400px;
         height: 250px;
+        margin-top: 100px;
+    }
+
+    .sample__text {
+        width: 500px;
     }
 
     .headline__title {
@@ -1109,11 +1118,42 @@ body {
     }
 
     .headline__box {
-        width: 600px;
+        width: 520px;
+    }
+
+    .story {
+        width: 500px;
+    }
+
+    .story__title {
+        font-size: 37px;
+    }
+
+    .story__text {
+        font-size: 32px;
+        width: 400px;
     }
 
     .goals__title {
         font-size: 40px;
+    }
+
+    .goals__box {
+        width: 500px;
+    }
+
+    .goals__box-item {
+        width: 250px;
+    }
+
+    .goals__box-line {
+        width: 130px;
+        transform: translateX(-30px);
+        height: 35px;
+    }
+
+    .goals__box-text {
+        width: 200px;
     }
 
     .impact__title {
@@ -1127,6 +1167,7 @@ body {
 
     .impact__img {
         margin-top: 40px;
+        width: 400px;
     }
 
     .footer__about-text {
@@ -1137,8 +1178,58 @@ body {
         margin-top: 35px;
     }
 
+    .footer__contact {
+        width: 230px;
+        margin-bottom: 20px;
+    }
+
+    .footer__contant {
+        width: 230px;
+    }
+
     .footer__box-text {
-        width: 250px;
+        width: 200px;
+    }
+
+    .footer__box-txt {
+        width: 180px;
+    }
+}
+
+@media (max-width: 660px) {
+    .footer__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__about-title {
+        text-align: center;
+    }
+
+    .footer__about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer__about-text {
+        width: 350px;
+        text-align: center;
+    }
+
+    .footer__contant {
+        width: 300px;
+    }
+
+    .footer__contact {
+        width: 300px;
+    }
+
+    .footer__title {
+        text-align: center;
     }
 }
 
@@ -1288,10 +1379,6 @@ body {
 
     .footer__about-title {
         text-align: center;
-    }
-
-    .footer__button {
-        transform: translateX(100px);
     }
 
     .footer__contant {
